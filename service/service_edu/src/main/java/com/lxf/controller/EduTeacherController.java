@@ -1,5 +1,6 @@
 package com.lxf.controller;
 
+import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lxf.entity.EduTeacher;
 import com.lxf.entity.R;
@@ -50,7 +51,13 @@ public class EduTeacherController {
     @ApiOperation("新增教师")
     @PostMapping("/addTeacher")
     public R<String> addTeacher(@RequestBody EduTeacher teacher) {
-        boolean flag = eduTeacherService.save(teacher);
+        boolean flag ;
+        if(null!=teacher&& StrUtil.isEmpty(teacher.getId())){
+            flag=eduTeacherService.save(teacher);
+        }else{
+            flag=eduTeacherService.updateById(teacher);
+        }
+
         if (flag) {
             return R.ok().data(teacher.getId());
         }

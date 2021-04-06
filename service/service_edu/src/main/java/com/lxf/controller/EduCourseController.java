@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "课程相关的操作api")
 @RestController
 @RequestMapping("/edu/edu-course")
-
 @Slf4j
 @CrossOrigin
 public class EduCourseController {
@@ -32,5 +31,8 @@ public class EduCourseController {
         log.info(String.format("EduCourseController====》courseAdd获取的参数为courseInfoVo：{%s}",courseInfoVo));
         return R.ok().data(eduCourseService.saveCourseInfo(courseInfoVo));
     }
+
 }
+
+
 
