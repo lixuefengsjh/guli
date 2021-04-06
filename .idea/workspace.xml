@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8d563ff-bbef-42bf-9232-71ce4b7149b5" name="Default Changelist" comment="" />
+    <list default="true" id="e8d563ff-bbef-42bf-9232-71ce4b7149b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduTeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduTeacherController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,10 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -126,12 +135,24 @@
       <workItem from="1617365825892" duration="23562000" />
       <workItem from="1617456301338" duration="2849000" />
       <workItem from="1617499405591" duration="12789000" />
-      <workItem from="1617583387701" duration="7096000" />
+      <workItem from="1617583387701" duration="8762000" />
+      <workItem from="1617714552137" duration="2833000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
