@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8d563ff-bbef-42bf-9232-71ce4b7149b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduCourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduTeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduTeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduTeacherController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,8 +133,38 @@
       <workItem from="1617456301338" duration="2849000" />
       <workItem from="1617499405591" duration="12789000" />
       <workItem from="1617583387701" duration="8762000" />
-      <workItem from="1617714552137" duration="2833000" />
+      <workItem from="1617714552137" duration="3118000" />
+      <workItem from="1617800058731" duration="7805000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1617720633203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617720633203</updated>
+    </task>
+    <task id="LOCAL-00002" summary="111">
+      <created>1617720724455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617720724455</updated>
+    </task>
+    <task id="LOCAL-00003" summary="章节添加功能">
+      <created>1617837489676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617837489676</updated>
+    </task>
+    <task id="LOCAL-00004" summary="章节添加功能">
+      <created>1617837597291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617837597291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,11 +175,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <MESSAGE value="章节添加功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="章节添加功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
