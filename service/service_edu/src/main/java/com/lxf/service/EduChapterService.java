@@ -2,6 +2,9 @@ package com.lxf.service;
 
 import com.lxf.entity.EduChapter;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.lxf.entity.vo.CharpterVo;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface EduChapterService extends IService<EduChapter> {
 
+    List<CharpterVo> queryCharterByCourseId(String courseId);
 }
