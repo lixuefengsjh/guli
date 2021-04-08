@@ -1,7 +1,12 @@
 package com.lxf.entity;
 
+import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
+
+import java.time.LocalDateTime;
 import java.util.Date;
+
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
@@ -38,10 +43,12 @@ public class EduChapter implements Serializable {
     private Integer sort;
 
     @ApiModelProperty(value = "创建时间")
-    private Date gmtCreate;
+    @TableField(fill= FieldFill.INSERT)
+    private LocalDateTime gmtCreate;
 
     @ApiModelProperty(value = "更新时间")
-    private Date gmtModified;
+    @TableField(fill= FieldFill.INSERT_UPDATE)
+    private LocalDateTime gmtModified;
 
 
 }

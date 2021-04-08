@@ -39,14 +39,14 @@ public class EduChapterController {
     }
     @PostMapping("/upOrSave")
     @ApiOperation("新增或者修改章节")
-    public R updateOrSave(@RequestBody EduChapter eduChapter ){
+    public R<String> updateOrSave(@RequestBody EduChapter eduChapter ){
         Boolean flag;
         if(null!=eduChapter&& !StrUtil.isEmpty(eduChapter.getId())){
             flag= eduChapterService.updateById(eduChapter);
         }else{
             flag= eduChapterService.save(eduChapter);
         }
-        if(flag){ return R.ok();}
+        if(flag){ return R.ok().data(eduChapter.getId());}
         return R.error();
     }
     @GetMapping("/delete/{id}")
