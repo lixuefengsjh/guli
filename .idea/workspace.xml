@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e8d563ff-bbef-42bf-9232-71ce4b7149b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduChapterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduChapterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduVideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/controller/EduVideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/entity/EduVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/entity/EduVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/service/EduChapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/service/EduChapterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/service/impl/EduChapterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/lxf/service/impl/EduChapterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduChapterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduChapterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduVideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/controller/EduVideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/entity/EduChapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/entity/EduChapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/service/EduChapterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/service/EduChapterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/service/impl/EduChapterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/com/lxf/service/impl/EduChapterServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +145,9 @@
       <workItem from="1617583387701" duration="8762000" />
       <workItem from="1617714552137" duration="3118000" />
       <workItem from="1617800058731" duration="7805000" />
+      <workItem from="1617882219088" duration="5435000" />
+      <workItem from="1618051339402" duration="3365000" />
+      <workItem from="1618103915388" duration="6963000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1617720633203</created>
@@ -164,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617837597291</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="章节添加功能2021-04-08 23:34">
+      <created>1617896087096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617896087096</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
     <MESSAGE value="章节添加功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="章节添加功能" />
+    <MESSAGE value="章节添加功能2021-04-08 23:34" />
+    <option name="LAST_COMMIT_MESSAGE" value="章节添加功能2021-04-08 23:34" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
