@@ -64,4 +64,18 @@ public class EduChapterServiceImpl extends ServiceImpl<EduChapterMapper, EduChap
         }).collect(Collectors.toList());
         return result;
     }
+
+    @Override
+    public boolean deleteCharpterAndVideoById(String id) {
+        try{
+            Boolean flag= eduChapterMapper.deleteById(id)>0?true:false;
+            QueryWrapper<EduVideo> wrapper=new QueryWrapper<>();
+            wrapper.eq("chapter_id",id);
+            eduVideoMapper.delete(wrapper);
+        }catch (Exception e){
+            log.error("删除章节，视频记录时出错");
+            return false;
+        }
+        return eduChapterMapper.deleteById(id)>0?true:false;
+    }
 }

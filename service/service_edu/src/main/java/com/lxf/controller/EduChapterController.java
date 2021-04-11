@@ -51,6 +51,7 @@ public class EduChapterController {
     }
     @GetMapping("/delete/{id}")
     @ApiOperation("删除章节")
-    public R updateOrSave(@PathVariable String id ){return eduChapterService.removeById(id)?R.ok():R.error();}
+    public R<Boolean> deleteCharpterAndVideoById(@PathVariable String id ){
+        return eduChapterService.deleteCharpterAndVideoById(id)?R.ok():R.error();}
 }
 
