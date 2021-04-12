@@ -28,7 +28,6 @@ public class EduVideoController {
     @PostMapping
     @ApiOperation("保存小节内容")
     public R<String> saveOrUpdate(@RequestBody EduVideo video) {
-
         return eduVideoService.saveOrUpdate(video) ? R.ok().data(video.getId()) : R.error();
     }
     @GetMapping("/{id}")
